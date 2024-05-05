@@ -2,6 +2,7 @@ import Cards from "@/components/Cards";
 import Chooseus from "@/components/Chooseus";
 import Creators from "@/components/Creators";
 import FeaturedCourses from "@/components/FeaturedCourses";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Webinar from "@/components/Webinar";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Cards />
       <Webinar />
       <Creators />
+      <Footer />
     </main>
   );
 }
